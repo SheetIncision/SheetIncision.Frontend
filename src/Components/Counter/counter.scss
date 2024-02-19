@@ -1,0 +1,29 @@
+.counter{
+  margin: 5vh auto;
+  max-width: 30vh;
+
+  .options{
+    display: flex;
+    .option{
+      margin: 2vh auto;
+      .inputLabel{
+        font-size: 2vh;
+      }
+    }
+  }
+
+  .button{
+    width: 30vh;
+    font-size: 3vh;
+    background-color: #e8e8e8;
+    border-radius: 2vh;
+    &:hover{
+      background-color: #cecece;
+    }
+  }
+
+  #counterDisplay{
+    margin-top: 4vh;
+    font-size: 3vh;
+  }
+}
