@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
 import "./cell.scss"
 
-const Cell = props => {
+const Cell = () => {
     const [isActive, setIsActive] = useState(false);
 
-    const handleClick = event => {
+    const handleClick = () => {
         // 👇️ toggle isActive state on click
         setIsActive(current => !current);
     };
