@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/SheetIncision.Frontend/static/css/main.54700b2a.css",
-    "main.js": "/SheetIncision.Frontend/static/js/main.e9474714.js",
+    "main.css": "/SheetIncision.Frontend/static/css/main.0763134e.css",
+    "main.js": "/SheetIncision.Frontend/static/js/main.324b96ff.js",
     "index.html": "/SheetIncision.Frontend/index.html",
-    "main.54700b2a.css.map": "/SheetIncision.Frontend/static/css/main.54700b2a.css.map",
-    "main.e9474714.js.map": "/SheetIncision.Frontend/static/js/main.e9474714.js.map"
+    "main.0763134e.css.map": "/SheetIncision.Frontend/static/css/main.0763134e.css.map",
+    "main.324b96ff.js.map": "/SheetIncision.Frontend/static/js/main.324b96ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.54700b2a.css",
-    "static/js/main.e9474714.js"
+    "static/css/main.0763134e.css",
+    "static/js/main.324b96ff.js"
   ]
 }
