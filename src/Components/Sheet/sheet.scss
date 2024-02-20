@@ -1,4 +1,25 @@
-#sheet{
-  border-collapse: collapse;
+.TableWrapper{
+  position:relative;
+  max-height: 41vh;
+  border: black 1px solid;
   margin: 0 auto;
+  .TableScroll{
+    max-height:40vh;
+    overflow:auto;
+    &::-webkit-scrollbar {
+      width: 1vh;
+      height: 1vh;
+    }
+    &::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+    &::-webkit-scrollbar-thumb {
+      background: #888;
+    }
+
+    #sheet{
+      border-collapse: collapse;
+      margin: 0 auto;
+    }
+  }
 }

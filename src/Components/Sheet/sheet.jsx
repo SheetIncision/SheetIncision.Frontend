@@ -25,9 +25,14 @@ const Sheet = props => {
     };
 
     return (
-        <table id="sheet">
-            {renderSheet()}
-        </table>
+
+        <div className="TableWrapper">
+            <div className="TableScroll">
+                <table id="sheet">
+                    {renderSheet()}
+                </table>
+            </div>
+        </div>
     );
 };
 
