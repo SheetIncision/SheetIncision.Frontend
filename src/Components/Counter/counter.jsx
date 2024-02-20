@@ -34,7 +34,11 @@ const Counter = props => {
             allowDiagonals: allowDiagonals
         }
 
-        fetch("https://sheet-incision-web-api.azurewebsites.net/api/SheetIncision/GetNumberOfPieces?data=" + JSON.stringify(obj), {
+        const localhost = "https://localhost:7231"
+        const apiDomain = "https://sheet-incision-web-api.azurewebsites.net"
+
+        fetch(
+            apiDomain + "/api/SheetIncision/GetNumberOfPieces?data=" + JSON.stringify(obj), {
             method: "GET",
         })
             .then( response => response.json() )
